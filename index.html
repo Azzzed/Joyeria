@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/StyleResponsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>PaginaWeb</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<body>
+    <nav class="navegacion">
+        <div class="logo">
+            <a href=""> <img src="imgs/logoNegro.png" class="imagen-logo" alt="logo"></a>
+        </div>
+
+        <div class="enlaces-navegacion">
+            <a href="" class="item-navegacion">inicio</a>
+
+            <li class="contenedor-menudesplegable">
+                <a href="" class="menu">Productos <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></a>
+                <ul class="menu-desplegable">
+                    <li><a href="#anillos" class="item-desplegable">anillos</a></li>
+                    <li><a href="#collares" class="item-desplegable">collares</a></li>
+                    <li><a href="#aretes" class="item-desplegable">aretes</a></li>
+                    <li><a href="#pulsera" class="item-desplegable">pulseras</a></li>
+                </ul>
+            </li>
+
+            <a href="#colecion">collecion</a>
+            <a href="">nosotros</a>
+        </div>
+
+        <a href="" class="contenedor-sesion">
+            <span class="material-symbols-outlined">logout</span>
+            <p>Salir</p>
+        </a>
+    </nav>
+
+    <header>
+        <div class="contenedor-imagen">
+            <div class="overlay"></div>
+            <img src="imgs/new_jewellery.webp" class="imagen">
+        </div>
+        <div class="contenido-hero">
+            <h2>Joyeria</h2>
+            <p>especializados en joyeria de oro</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="Contendortitulo">
+            <div class="linea"></div>
+            <h2 class="titulo">Productos mas vendidos</h2>
+        </div>
+
+        <!--PRODUCTOS CARRUSEL-->
+        <div class="carrusel swiper">
+            <div class="contenedorCarrusel swiper-wrapper">
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/anillo2.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Oro 24k</p>
+                            <p class="hashtag">Grabado</p>
+                        </div>
+                        <h1>anillo recubierto en oro</h1>
+                        <p>$1000</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/aretesDiamante.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Diamantes</p>
+                            <p class="hashtag">Oro blanco 14k</p>
+                        </div>
+                        <h1>aretes con diamantes</h1>
+                        <p>$500</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/artes.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Oro 24k</p>
+                            <p class="hashtag">Diamantes</p>
+                        </div>
+                        <h1>aretes en oro</h1>
+                        <p>$500</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/cadenaOro.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Cadena</p>
+                            <p class="hashtag">Oro 10k</p>
+                        </div>
+                        <h1>Cadena de oro</h1>
+                        <p>$500</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/Tobillera.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Tobillera</p>
+                            <p class="hashtag">Oro 24k</p>
+                        </div>
+                        <h1>Tobillera en oro</h1>
+                        <p>$500</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+
+                <div class="producto swiper-slide">
+                    <a class="link" href="#">
+                        <img class="imgCarrusel2" src="imgsProductos/aretesNino.png" alt="ropa">
+                        <div class="hashtagsCarrusel">
+                            <p class="hashtag">Aretes incrustados</p>
+                            <p class="hashtag">Oro 24k</p>
+                            <p class="hashtag">Diamantes</p>
+                        </div>
+                        <h1>Lorem ipsum dolor</h1>
+                        <p>$500</p>
+                        <button class="iconoCarrusel material-symbols-outlined">chevron_right</button>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination pag2"></div>
+        </div>
+
+        <!-- NUEVA SECCIÓN: PRODUCTOS EN TENDENCIA -->
+        <div class="Contendortitulo">
+            <div class="linea"></div>
+            <h2 class="titulo">Productos en Tendencia</h2>
+        </div>
+
+        <section class="seccion-tendencias">
+            <div class="grid-productos">
+                <!-- Producto 1 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/anillo2.png" alt="Anillo de oro">
+                    <div class="producto-info">
+                        <h3>Anillo Elegante</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Oro 24k</span>
+                            <span class="tag">Grabado</span>
+                        </div>
+                        <p class="producto-precio">$1,200</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/artes.png" alt="Aretes en oro">
+                    <div class="producto-info">
+                        <h3>Aretes Clásicos</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Oro 24k</span>
+                            <span class="tag">Diamantes</span>
+                        </div>
+                        <p class="producto-precio">$850</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <div class="producto-grid">
+                    <img src="imgsProductos/artes.png" alt="Aretes en oro">
+                    <div class="producto-info">
+                        <h3>Aretes Clásicos</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Oro 24k</span>
+                            <span class="tag">Diamantes</span>
+                        </div>
+                        <p class="producto-precio">$850</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/cadenaOro.png" alt="Cadena de oro">
+                    <div class="producto-info">
+                        <h3>Cadena Luxury</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Cadena</span>
+                            <span class="tag">Oro 10k</span>
+                        </div>
+                        <p class="producto-precio">$680</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <div class="producto-grid">
+                    <img src="imgsProductos/aretesNino.png" alt="Cadena de oro">
+                    <div class="producto-info">
+                        <h3>Cadena Luxury</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Cadena</span>
+                            <span class="tag">Oro 10k</span>
+                        </div>
+                        <p class="producto-precio">$680</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/Tobillera.png" alt="Tobillera">
+                    <div class="producto-info">
+                        <h3>Tobillera Delicada</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Tobillera</span>
+                            <span class="tag">Oro 24k</span>
+                        </div>
+                        <p class="producto-precio">$450</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/aretesNino.png" alt="Aretes para niño">
+                    <div class="producto-info">
+                        <h3>Aretes Infantiles</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Incrustados</span>
+                            <span class="tag">Oro 24k</span>
+                        </div>
+                        <p class="producto-precio">$380</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <!-- Producto 7 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/anillo2.png" alt="Anillo especial">
+                    <div class="producto-info">
+                        <h3>Anillo Signature</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Oro rosado</span>
+                            <span class="tag">Diseño único</span>
+                        </div>
+                        <p class="producto-precio">$950</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+
+                <!-- Producto 8 -->
+                <div class="producto-grid">
+                    <img src="imgsProductos/cadenaOro.png" alt="Collar elegante">
+                    <div class="producto-info">
+                        <h3>Collar Moderno</h3>
+                        <div class="producto-tags">
+                            <span class="tag">Oro 18k</span>
+                            <span class="tag">Tendencia</span>
+                        </div>
+                        <p class="producto-precio">$720</p>
+                    </div>
+                    <button class="btn-ver-producto">
+                        Ver más <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="Contendortitulo">
+            <div class="linea"></div>
+            <h2 class="titulo">Quién Somos</h2>
+        </div>
+
+        <section class="quien-somos">
+            <div class="collage-imagenes">
+                <img src="imgsProductos/nosotrosPareja.webp" class="ppal" alt="">
+                <img src="imgsProductos/nosotrosCadena.webp" class="linea2" alt="">
+                <img src="imgsProductos/nosotrosDije.webp" alt="">
+            </div>
+            <div class="contenido-quien-somos">
+                <img src="imgs/logoNegroSolo.png" alt="">
+                <p>Somos una joyería con más de 20 años de experiencia, especializados en piezas de oro de la más alta
+                    calidad. Nuestro equipo de artesanos expertos crea diseños únicos que combinan tradición y
+                    modernidad, utilizando materiales premium como oro 24k, diamantes y otras gemas preciosas. Nos
+                    apasiona ofrecer joyas que no solo adornan, sino que cuentan historias y celebran momentos
+                    especiales en la vida de nuestros clientes.</p>
+            </div>
+        </section>
+
+        <div class="Contendortitulo">
+            <div class="linea"></div>
+            <h2 class="titulo">colleciones</h2>
+        </div>
+
+        <section>
+            <div class="contenedor-collague-desplegable" id="colecion">
+                <div class="contenedor-imagenes" id="anillos">
+                    <h2>anillos</h2>
+                    <img src="imgsColleciones/anillo.avif" alt="anillo de oro">
+                    <div class="descripcion">
+                        anillos de oro de 24k, diseñados con elegancia para cada ocasión
+                        joyas únicas con acabados finos y garantía de por vida
+                        anillos que reflejan lujo, tradición y estilo atemporal
+                    </div>
+                    <button class="boton-collage"><span class="material-symbols-outlined">
+                            arrow_upward
+                        </span>Ver collecion</button>
+                </div>
+                <div class="contenedor-imagenes" id="aretes">
+                    <h2>aretes</h2>
+                    <img src="imgsColleciones/aretes.webp" alt="anillo de oro">
+                    <div class="descripcion">
+                        aretes de oro 24k, brillando con la luz de cada mirada
+                        detalles delicados con piedras preciosas que realzan tu belleza
+                        diseños sofisticados que combinan tradición y modernidad
+                    </div>
+                    <button class="boton-collage"><span class="material-symbols-outlined">
+                            arrow_upward
+                        </span>Ver collecion</button>
+                </div>
+                <div class="contenedor-imagenes" id="collares">
+                    <h2>collares</h2>
+                    <img src="imgsColleciones/collar.jpg" alt="anillo de oro">
+                    <div class="descripcion">
+                        collares artesanales de oro 24k, símbolo de distinción y glamour
+                        hechos a mano por maestros orfebres con técnicas ancestrales
+                        una joya única que resalta tu esencia y elegancia
+                    </div>
+                    <button class="boton-collage"><span class="material-symbols-outlined">
+                            arrow_upward
+                        </span>Ver collecion</button>
+                </div>
+                <div class="contenedor-imagenes" id="pulseras">
+                    <h2>pulseras</h2>
+                    <img src="imgsColleciones/pulsera.avif" alt="anillo de oro">
+                    <div class="descripcion">
+                        pulseras de oro 24k, creadas para acompañar tus mejores momentos
+                        diseños exclusivos que unen delicadeza y fuerza
+                        lujo refinado en cada detalle, hechas para durar generacionesv
+                    </div>
+                    <button class="boton-collage"><span class="material-symbols-outlined">
+                            arrow_upward
+                        </span>Ver collecion</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <div class="footer-seccion">
+                <h2 class="footer-logo">CasaHouse</h2>
+                <p>Proyecto de ejercicios de JSTL, para la asignatura de Programacion en Java xdd</p>
+            </div>
+
+            <div class="footer-seccion">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-seccion">
+                <h3>Contacto</h3>
+                <p> Bucaramanga - Colombia</p>
+                <p> +57 302 750 4689</p>
+            </div>
+
+            <div class="footer-seccion" id="footer">
+                <h3>Siguenos</h3>
+                <div class="footer-redes">
+                    <div class="footer-redes">
+                        <a href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>&copy; 2025 Eder Roa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Scripts/swiper.js"></script>
+</body>
+
+</html>
